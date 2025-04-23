@@ -1,0 +1,39 @@
+/* assets/main.scss */
+
+// Variables (opcional)
+$font-body: 'Ubuntu', sans-serif;
+$font-header: 'Ubuntu Condensed', sans-serif;
+$bg-body: #dad5c6;
+$color-body: #232e3f;
+$color-header: #51508b;
+$bg-footer: #f2f5ff;
+
+/* Estilos para el body */
+body {
+  font-family: $font-body;
+  background-color: $bg-body;
+  color: $color-body;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el header */
+header {
+  font-family: $font-header;
+  background-color: $bg-body;
+  color: $color-header;
+  padding: 1em;
+  text-align: center;
+}
+
+/* Estilos para el footer */
+footer {
+  background-color: $bg-footer;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+

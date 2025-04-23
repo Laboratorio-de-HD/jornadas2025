@@ -1,0 +1,409 @@
+# Reejecutar después del reinicio para crear el archivo CSS
+from pathlib import Path
+
+css_content = """
+/* --- ESTRUCTURA GENERAL --- */
+body.post-page {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 25px;
+  background-color: #ffffff;
+  color: #23325a;
+  margin: 20px;
+}
+
+/* --- ENCABEZADO CON ÍCONO ANIMADO (Mismo que en HOME) --- */
+header.post-header {
+  background-color: transparent;
+  padding: 1em;
+  border-bottom: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.home-title {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  color: #4e3b8c;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+  border-bottom: 2px solid #6c5eb5;
+  padding-bottom: 0.4em;
+}
+
+.home-title i {
+  font-size: 1.4em;
+  color: #6c5eb5;
+  animation: bounceIn 1s ease-out;
+  transition: transform 0.3s ease;
+}
+
+.home-title i:hover {
+  animation: bounceHover 0.6s ease;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.8) translateY(-20px);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.1) translateY(8px);
+    opacity: 1;
+  }
+  80% {
+    transform: scale(0.95) translateY(-4px);
+  }
+  100% {
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes bounceHover {
+  0% { transform: translateY(0); }
+  30% { transform: translateY(-6px); }
+  60% { transform: translateY(3px); }
+  100% { transform: translateY(0); }
+}
+
+/* --- CONTENIDO DEL POST --- */
+main.post-content {
+  padding: 2em;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+main.post-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+main.post-content a {
+  color: #557f9f;
+  text-decoration: none;
+}
+
+main.post-content a:hover {
+  text-decoration: underline;
+}
+
+.post-list {
+  background-color: #fff;
+  padding: 2em;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  margin: 3em auto;
+  max-width: 800px;
+}
+
+.post-list h2 {
+  font-size: 1.7rem;
+  color: #6c5eb5;
+  margin-bottom: 1.5em;
+}
+
+.post-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-item {
+  margin-bottom: 1em;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 8px;
+}
+
+.post-item a {
+  display: block;
+  padding: 1em 1.2em;
+  text-decoration: none;
+  background-color: #fdfdfd;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  color: #23325a;
+}
+
+.post-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.post-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+}
+
+.post-meta i {
+  font-size: 1.2rem;
+  color: #6c5eb5;
+}
+
+.post-title {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.post-date {
+  font-size: 0.85rem;
+  color: #6c6c6c;
+}
+
+
+/* --- ÍCONOS INLINE --- */
+.icon-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.icon-text i {
+  font-size: 1em;
+  vertical-align: middle;
+}
+
+.home-footer {
+  padding: 1em;
+  font-size: 0.9rem;
+  color: #51508b;
+  background-color: transparent;
+}
+
+.home-footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.footer-logo-box {
+  flex: 0 0 100px; /* ancho fijo para el logo */
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-logo {
+  height: 24px;
+  width: auto;
+  object-fit: contain;
+}
+
+.footer-text {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-text p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.footer-links {
+  margin-top: 0.3em;
+  font-size: 0.85rem;
+}
+
+.footer-links a {
+  color: #557f9f;
+  text-decoration: none;
+  margin: 0 4px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+.home-nav {
+  position: absolute;
+  top: 1.2em;
+  left: 1.2em;
+}
+
+.home-nav a {
+  font-size: 1.5rem;
+  color: #6c5eb5;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  transition: transform 0.2s ease;
+}
+
+.home-nav a:hover {
+  transform: scale(1.1);
+}
+
+.post-list-grid {
+  max-width: 1200px;
+  margin: 3em auto;
+  padding: 0 2em;
+}
+
+.post-list-grid h2 {
+  font-size: 1.8rem;
+  color: #6c5eb5;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.grid-posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5em;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-card {
+  background-color: #fdfdfd;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 1.5em;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
+}
+
+.post-card a {
+  text-decoration: none;
+  color: #23325a;
+}
+
+.post-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+}
+
+.post-meta i {
+  font-size: 1.2rem;
+  color: #6c5eb5;
+}
+
+.post-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.post-date {
+  font-size: 0.85rem;
+  color: #6c6c6c;
+}
+/* --- Estilo para los detalles colapsables --- */
+details {
+  margin: 1.5em 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  background: #fff;
+}
+
+/* Cabecera del summary */
+details > summary {
+  list-style: none;            /* quita el triángulo default */
+  padding: 0.75em 1em;
+  margin: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  font-size: 1.05rem;
+  font-weight: 600;
+  background: #f4f2fa;
+  color: #4e3b8c;
+  border-bottom: 1px solid #ddd;
+  transition: background 0.3s ease;
+}
+
+/* Cambia el fondo cuando está abierto */
+details[open] > summary {
+  background: #e8e4f9;
+}
+
+/* Contenido interno */
+details > *:not(summary) {
+  padding: 1em;
+  line-height: 1.6;
+  animation: fadeIn 0.3s ease-in;
+}
+
+/* Suaviza la apertura */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Ajusta el icono dentro del summary */
+details > summary i {
+  font-size: 1.2em;
+  color: #6c5eb5;
+}
+
+/* Hover en la cabecera */
+details > summary:hover {
+  background: #ece9f7;
+}
+/* quita el estilo por defecto y centra un poco la sangría */
+.espaciado {
+  list-style: none;
+  padding-left: 1em;
+  margin: 0;
+}
+
+/* Lista con espacio entre ítems */
+.espaciado li {
+  margin-bottom: 0.75em;  /* ajusta este valor al espacio que necesites */
+}
+
+/* Si además quieres uniformar interlineado dentro de <details> */
+details > *:not(summary) {
+  line-height: 1.6;
+}
+/* separa cada ítem de la lista */
+.espaciado li {
+  margin-bottom: 0.75em;
+}
+
+/* estilo para los ítems con icono */
+.icon-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 1em 0;
+}
+
+.icon-list .icon-text {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* opcional: colorea los iconos y el texto */
+.icon-list .icon-text i {
+  color: #6c5eb5;
+  font-size: 1.2rem;
+}
+
+.icon-list .icon-text {
+  color: #23325a;
+}
+
+
+# Guardar el archivo
+file_path = Path("/mnt/data/post-homologado.css")
+file_path.write_text(css_content.strip())
+
+file_path.name
