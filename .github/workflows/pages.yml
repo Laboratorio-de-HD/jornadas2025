@@ -10,31 +10,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Extrae el código de la rama main
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 2. Instala Ruby y Bundler
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.x'        # ajusta la versión si usas otra
-          bundler-cache: true        # cachea gems para acelerar builds
+          ruby-version: '3.2.2'    # ajusta si quieres otra versión disponible
+          bundler-cache: true
 
-      # 3. Instala dependencias con Bundler
       - name: Install dependencies
         run: bundle install
 
-      # 4. Construye el sitio Jekyll en ./_site
       - name: Build Jekyll site
         run: bundle exec jekyll build --destination ./_site
 
-      # 5. Publica el contenido de ./_site en la rama gh-pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: ./_site
           publish_branch: gh-pages
-          # Opcional: user name/email para commits automáticos
-          # commit_user_name: github-actions
-          # commit_user_email: github-actions@github.com
