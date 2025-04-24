@@ -22,8 +22,8 @@ title: JORNADAS DE HUMANIDADES DIGITALES
 email: natalia.rocha@tec.com
 description: >- # this means to ignore newlines until "baseurl:"
   Jornadas de Humanidades Digitales organizadas por la Escuela de Humanidades y Educación, Tec de Monterrey
-baseurl: "/techhdd/" # the subpath of your site, e.g. /blog
-url: "https://nar453.github.io/jornadas2025/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/jornadas2025/" # the subpath of your site, e.g. /blog
+url: "https://nar453.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: TecdeMonterrey
 github_username: nar453 
 
