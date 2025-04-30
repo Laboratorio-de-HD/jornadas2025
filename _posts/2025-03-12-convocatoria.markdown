@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Convocatoria edición 2025 de las Jornadas HHDD"
+title:  "Convocatoria y registro edición 2025 de las Jornadas HHDD"
 date:   2025-03-19 13:24:20 -0600
 categories: convocatoria hhdd
 ---
