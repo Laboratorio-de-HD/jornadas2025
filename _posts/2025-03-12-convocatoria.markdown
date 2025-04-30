@@ -2,7 +2,7 @@
 layout: post
 title:  "Convocatoria y registro edición 2025 de las Jornadas HHDD"
 date:   2025-03-19 13:24:20 -0600
-categories: convocatoria hhdd
+categories: convocatoria hhdd, registro, inscripción
 ---
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
 
@@ -67,7 +67,7 @@ categories: convocatoria hhdd
   }
 </style>
 
-## Convocatoria 2025
+## Convocatoria y registro 2025
 
 <div class="section-cards">
   <!-- Fechas -->
