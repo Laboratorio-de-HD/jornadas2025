@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Convocatoria edición 2025 de las Jornadas HHDD"
+title:  "Convocatoria y registro edición 2025 de las Jornadas HHDD"
 date:   2025-03-19 13:24:20 -0600
-categories: convocatoria hhdd
+categories: convocatoria hhdd, registro, inscripción
 ---
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
 
@@ -67,7 +67,7 @@ categories: convocatoria hhdd
   }
 </style>
 
-## Convocatoria 2025
+## Convocatoria y registro 2025
 
 <div class="section-cards">
   <!-- Fechas -->
@@ -78,7 +78,7 @@ categories: convocatoria hhdd
     <div class="card-body">
       <p>Con actividades en tres diferentes campus, las jornadas se llevarán a cabo en las siguientes fechas:</p>
       <ul>
-        <li><i class="fas fa-calendar-alt"></i> <strong>Campus Puebla</strong> 19 y 20 de agosto de 2025</li>
+        <li><i class="fas fa-calendar-alt"></i> <strong>Campus Puebla</strong> 21 y 22 de agosto de 2025</li>
         <li><i class="fas fa-calendar-alt"></i> <strong>Campus Querétaro</strong> 23 y 24 de septiembre de 2025</li>
         <li><i class="fas fa-calendar-alt"></i> <strong>Campus Guadalajara</strong> 30 de septiembre y 1 de octubre de 2025</li>
       </ul>
