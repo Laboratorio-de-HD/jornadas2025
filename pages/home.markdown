@@ -17,7 +17,7 @@ entorno académico en constante evolución.
 
 Con actividades en tres diferentes campus, las jornadas se llevarán a cabo en las siguientes fechas:
 
-- <i class="fas fa-calendar-alt"></i>  **Campus Puebla**: 21 y 22 de agosto de 2025
+- <i class="fas fa-calendar-alt"></i>  **Campus Puebla**: 27 y 28 de agosto de 2025
 - <i class="fas fa-calendar-alt"></i>  **Campus por confirmar, Región Noroeste**: 8 y 9 de septiembre 2025   
 - <i class="fas fa-calendar-alt"></i>  **Campus Querétaro**: 23 y 24 de septiembre de 2025
 - <i class="fas fa-calendar-alt"></i>  **Campus CDMX**: 25 y 26 de septiembre 2025   
