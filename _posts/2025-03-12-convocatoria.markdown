@@ -78,7 +78,7 @@ categories: convocatoria hhdd, registro, inscripción
     <div class="card-body">
       <p>Con actividades en tres diferentes campus, las jornadas se llevarán a cabo en las siguientes fechas:</p>
       <ul>
-        <li><i class="fas fa-calendar-alt"></i> <strong>Campus Puebla</strong> 21 y 22 de agosto de 2025</li>
+        <li><i class="fas fa-calendar-alt"></i> <strong>Campus Puebla</strong> 27 y 28 de agosto de 2025</li>
         <li><i class="fas fa-calendar-alt"></i> <strong>Campus por confirmar, Región Noroeste</strong> 8 y 9 de agosto de 2025</li>
         <li><i class="fas fa-calendar-alt"></i> <strong>Campus Querétaro</strong> 23 y 24 de septiembre de 2025</li>
         <li><i class="fas fa-calendar-alt"></i> <strong>Campus CDMX</strong> 25 y 26 de septiembre de 2025</li>
@@ -136,7 +136,7 @@ categories: convocatoria hhdd, registro, inscripción
         Todas las personas participantes obtendrán un reconocimiento por su participación, que formará parte de la capacitación formal.
       </p>
       <p>
-        Se apoyará a un equipo por sede para participar en el <strong>Encuentro de Humanidades Digitales</strong> (Campus Monterrey, 15–17 oct 2025). Consulta las <a href="/_posts/2025-03-18-politicas-hhdd/">políticas</a>.
+        Se apoyará a un equipo por sede para participar en el <strong>Encuentro de Humanidades Digitales</strong> (Campus Monterrey, 15–17 oct 2025). Consulta las <a href="[/_posts/2025-03-18-politicas-hhdd/](https://nar453.github.io/jornadas2025/pol%C3%ADticas/convocatoria/hhdd/2025/03/18/politicas-hhdd.html)">políticas</a>.
       </p>
       <p>
         El proyecto nacional ganador recibirá un fondo de hasta <strong>$50,000 MXN</strong>. Consulta las políticas para más detalles.
