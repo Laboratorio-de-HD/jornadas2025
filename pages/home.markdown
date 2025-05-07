@@ -17,8 +17,10 @@ entorno académico en constante evolución.
 
 Con actividades en tres diferentes campus, las jornadas se llevarán a cabo en las siguientes fechas:
 
-- <i class="fas fa-calendar-alt"></i>  **Campus Puebla**: 21 y 22 de agosto de 2025  
-- <i class="fas fa-calendar-alt"></i>  **Campus Querétaro**: 23 y 24 de septiembre de 2025  
+- <i class="fas fa-calendar-alt"></i>  **Campus Puebla**: 21 y 22 de agosto de 2025
+- <i class="fas fa-calendar-alt"></i>  **Campus por confirmar, Región Noroeste**: 8 y 9 de septiembre 2025   
+- <i class="fas fa-calendar-alt"></i>  **Campus Querétaro**: 23 y 24 de septiembre de 2025
+- <i class="fas fa-calendar-alt"></i>  **Campus CDMX**: 25 y 26 de septiembre 2025   
 - <i class="fas fa-calendar-alt"></i>  **Campus Guadalajara**: 30 de septiembre y 1 de octubre de 2025
 
 
@@ -28,11 +30,15 @@ Con actividades en tres diferentes campus, las jornadas se llevarán a cabo en l
 Si tienes dudas respecto a la dinámica de las sesiones, escribe a:
 
 **Coordinación general**  
+
 <div style="display: flex; align-items: center; gap: 6px;">
-  <i class="fas fa-envelope"></i> <span>martindelcampo@tec.mx</span>
+<i class="fas fa-envelope"></i> <span>martindelcampo@tec.mx</span>
 </div>
 
+
+
 **Coordinación Centro-Occidente**  
+
 <div style="display: flex; align-items: center; gap: 6px;">
   <i class="fas fa-envelope"></i> <span>ccastill@tec.mx</span>
 </div>
@@ -40,7 +46,16 @@ Si tienes dudas respecto a la dinámica de las sesiones, escribe a:
   <i class="fas fa-envelope"></i> <span>natalia.rocha@tec.mx</span>
 </div>
 
+
+
 **Coordinación CDMX**  
+
 <div style="display: flex; align-items: center; gap: 6px;">
-  <i class="fas fa-envelope"></i> <span>martindelcampo@tec.mx</span>
+  <i class="fas fa-envelope"></i> <span>mcfernano@tec.mx</span>
+</div>
+
+**Coordinación Noroeste**  
+
+<div style="display: flex; align-items: center; gap: 6px;">
+  <i class="fas fa-envelope"></i> <span>diego.granena@tec.mx</span>
 </div>

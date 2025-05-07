@@ -79,7 +79,9 @@ categories: convocatoria hhdd, registro, inscripción
       <p>Con actividades en tres diferentes campus, las jornadas se llevarán a cabo en las siguientes fechas:</p>
       <ul>
         <li><i class="fas fa-calendar-alt"></i> <strong>Campus Puebla</strong> 21 y 22 de agosto de 2025</li>
+        <li><i class="fas fa-calendar-alt"></i> <strong>Campus por confirmar, Región Noroeste</strong> 8 y 9 de agosto de 2025</li>
         <li><i class="fas fa-calendar-alt"></i> <strong>Campus Querétaro</strong> 23 y 24 de septiembre de 2025</li>
+        <li><i class="fas fa-calendar-alt"></i> <strong>Campus CDMX</strong> 25 y 26 de septiembre de 2025</li>
         <li><i class="fas fa-calendar-alt"></i> <strong>Campus Guadalajara</strong> 30 de septiembre y 1 de octubre de 2025</li>
       </ul>
     </div>
