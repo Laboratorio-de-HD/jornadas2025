@@ -76,7 +76,7 @@ categories: convocatoria hhdd, registro, inscripción
       <i class="fas fa-calendar-alt"></i> Fechas
     </div>
     <div class="card-body">
-      <p>Con actividades en tres diferentes campus, las jornadas se llevarán a cabo en las siguientes fechas:</p>
+      <p>Con actividades en diferentes campus, las jornadas se llevarán a cabo en las siguientes fechas:</p>
       <ul>
         <li><i class="fas fa-calendar-alt"></i> <strong>Campus Puebla</strong> 27 y 28 de agosto de 2025</li>
         <li><i class="fas fa-calendar-alt"></i> <strong>Virtual, Región Noroeste</strong> 8 y 9 de septiembre de 2025</li>
