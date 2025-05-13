@@ -15,7 +15,7 @@ entorno académico en constante evolución.
 
 ### Fechas
 
-Con actividades en tres diferentes campus, las jornadas se llevarán a cabo en las siguientes fechas:
+Con actividades en diferentes campus, las jornadas se llevarán a cabo en las siguientes fechas:
 
 - <i class="fas fa-calendar-alt"></i>  **Campus Puebla**: 27 y 28 de agosto de 2025
 - <i class="fas fa-calendar-alt"></i>  **Virtual, Región Noroeste**: 8 y 9 de septiembre 2025   
