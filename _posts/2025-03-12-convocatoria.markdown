@@ -84,7 +84,7 @@ categories: convocatoria hhdd, registro, inscripción
         <li><i class="fas fa-calendar-alt"></i> <strong>Campus Santa Fe</strong> 25 y 26 de septiembre de 2025</li>
         <li><i class="fas fa-calendar-alt"></i> <strong>Campus Guadalajara</strong> 30 de septiembre y 1 de octubre de 2025</li>
         <li><i class="fas fa-calendar-alt"></i> <strong>Campus Monterrey</strong> 15, 16 y 17 de octubre de 2025</li>
-        <li><i class="fas fa-calendar-alt"></i> <strong>Si estás en un Campus que aún no aparece, te invitamos a que registres en el más cercano o de tu preferencia</li>
+        <li><i class="fas fa-calendar-alt"></i> Si estás en un Campus que aún no aparece, puedes registrate en el más cercano o de tu preferencia</li>
       </ul>
     </div>
   </div>
