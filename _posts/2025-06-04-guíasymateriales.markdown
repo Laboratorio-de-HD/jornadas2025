@@ -4,16 +4,54 @@ title:  Guías y materiales HD
 date:   2025-06-04
 categories: [resources, HHDD]
 ---
+
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+  }
+  th, td {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  @media screen and (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+      display: block;
+    }
+    thead tr {
+      display: none;
+    }
+    td {
+      position: relative;
+      padding-left: 50%;
+    }
+    td::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 45%;
+      padding-left: 1em;
+      white-space: nowrap;
+      font-weight: bold;
+    }
+    td:nth-of-type(1)::before { content: "Campo"; }
+    td:nth-of-type(2)::before { content: "¿Qué indica?"; }
+    td:nth-of-type(3)::before { content: "Ejemplo"; }
+  }
+</style>
+
 ## 🧭 Manual básico interactivo
 
 <details markdown="1">
 <summary><i class="fa-solid fa-folder-open"></i> Guía completa de uso de Omeka.net</summary>
 
-### <i class="fa-solid fa-thumbtack"></i> ¿Qué es Omeka.net?
+### ¿Qué es Omeka.net?
 
 **Omeka.net** es una plataforma en línea para crear sitios web de colecciones digitales y exhibiciones. No requiere instalación ni conocimientos de programación. Es ideal para proyectos en humanidades digitales, archivos, museos o entornos educativos.
 
-### <i class="fa-solid fa-1"></i> Registrarse y crear un sitio
+### Registrarse y crear un sitio
 
 1. Visita [https://www.omeka.net](https://www.omeka.net)
 2. Haz clic en **“Sign Up”**.
@@ -25,7 +63,7 @@ categories: [resources, HHDD]
    - La URL deseada
    - El tema visual (puedes cambiarlo más adelante)
 
-### <i class="fa-solid fa-2"></i> Añadir ítems (elementos digitales)
+### Añadir ítems (elementos digitales)
 
 1. Ve a **Items > Add an Item**.
 2. Llena los campos de metadatos (título, creador, descripción…).
@@ -35,7 +73,7 @@ categories: [resources, HHDD]
 
 > <i class="fa-solid fa-folder"></i> *Consejo: Describe claramente cada ítem. Esto facilita la navegación y las búsquedas.*
 
-### <i class="fa-solid fa-3"></i> Organizar con colecciones
+### Organizar con colecciones
 
 1. Ve a **Collections > Add a Collection**.
 2. Escribe el nombre y una descripción general.
@@ -43,7 +81,7 @@ categories: [resources, HHDD]
 
 > <i class="fa-solid fa-link"></i> *Las colecciones agrupan ítems relacionados por tema, época, autor, etc.*
 
-### <i class="fa-solid fa-4"></i> Crear exhibiciones (exhibits)
+### Crear exhibiciones (exhibits)
 
 1. Ve a **Exhibits > Add an Exhibit**.
 2. Escribe el título y una descripción general de la exposición.
@@ -55,19 +93,19 @@ categories: [resources, HHDD]
 
 > <i class="fa-solid fa-palette"></i> *Este módulo permite contar una historia o construir una narrativa curatorial.*
 
-### <i class="fa-solid fa-5"></i> Personalizar tu sitio
+### Personalizar tu sitio
 
 - <i class="fa-solid fa-user"></i> Ve a **Appearance > Themes** para cambiar el aspecto visual.
 - <i class="fa-solid fa-tag"></i> Edita el título del sitio, el menú y agrega texto introductorio.
 - <i class="fa-solid fa-puzzle-piece"></i> Si tu plan lo permite, activa plugins como **Simple Pages** o **Exhibit Builder**.
 
-### <i class="fa-solid fa-6"></i> Publicar y compartir
+### Publicar y compartir
 
 - <i class="fa-solid fa-floppy-disk"></i> Los cambios se guardan automáticamente.
 - <i class="fa-solid fa-globe"></i> Tu sitio tendrá una URL como `https://tusitio.omeka.net`
 - <i class="fa-solid fa-link"></i> Comparte esta liga para que otros puedan explorar tu proyecto.
 
-### <i class="fa-solid fa-circle-check"></i> Recomendaciones finales
+### Recomendaciones finales
 
 - <i class="fa-solid fa-book"></i> Usa materiales con licencias libres o Creative Commons.
 - <i class="fa-solid fa-clipboard"></i> Sé consistente en el uso de metadatos.
@@ -139,7 +177,7 @@ categories: [resources, HHDD]
 
 </details>
 
-details markdown="1">
+<details markdown="1">
 <summary><i class="fa-solid fa-map"></i> Guía para crear un mapa sonoro interactivo con MapHub</summary>
 
 ### 1. Crear una cuenta en MapHub
@@ -199,6 +237,3 @@ details markdown="1">
 > Con esta guía, podrás crear un mapa sonoro atractivo y educativo usando MapHub de manera sencilla.
 
 </details>
-
----
-
