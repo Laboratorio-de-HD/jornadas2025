@@ -139,5 +139,66 @@ categories: [resources, HHDD]
 
 </details>
 
+details markdown="1">
+<summary><i class="fa-solid fa-map"></i> Guía para crear un mapa sonoro interactivo con MapHub</summary>
+
+### 1. Crear una cuenta en MapHub
+
+- Visita [MapHub](https://maphub.net) y haz clic en **“Sign up”** o **“Iniciar sesión”** en la esquina superior derecha.
+- Puedes registrarte con tu correo electrónico o con tu cuenta de Google.
+- Si ya tienes cuenta, haz clic en **“Login”** y accede con tus credenciales.
+
+### 2. Crear un nuevo mapa
+
+- Una vez iniciada la sesión, haz clic en **“New Map”**.
+- Asigna un nombre y descripción a tu mapa (opcional).
+- Elige el estilo de mapa base: por defecto es OpenStreetMap.
+
+### 3. Añadir puntos de interés (marcadores)
+
+- Haz clic en el ícono de marcador (chincheta) en la barra lateral izquierda.
+- Coloca el marcador en el lugar deseado (busca la dirección o navega manualmente).
+- En la ventana emergente puedes:
+  - **Nombrar el marcador**.
+  - **Agregar una descripción** del sonido o contexto.
+  - **Insertar un audio** mediante un enlace de SoundCloud o Google Drive.
+
+> 🟠 Para Google Drive: asegúrate de que el archivo esté configurado como "compartido públicamente".
+
+### 4. Personalizar los marcadores
+
+- Cambia el ícono, color y tamaño del marcador según el tipo de contenido.
+- Usa íconos temáticos relacionados con música, voz, entorno, etc.
+
+### 5. Añadir más puntos
+
+- Repite el proceso para cada nuevo punto que quieras incluir.
+- Puedes agregar tantos como desees.
+
+### 6. Guardar y compartir el mapa
+
+- Haz clic en **“Save”**.
+- Luego en **“Share”**:
+  - Copia el enlace o incrústalo con código HTML.
+  - Configura las opciones de privacidad si es necesario.
+
+### 7. Editar el mapa
+
+- Accede a tu cuenta, elige el mapa y haz clic en **“Edit”**.
+- Puedes agregar o modificar puntos, descripciones y audios.
+
+### 8. Visualización del mapa
+
+- Los usuarios pueden interactuar con el mapa, hacer clic en los puntos y escuchar los sonidos asociados a cada lugar.
+
+### Consejos adicionales
+
+- 🎧 Usa audios claros y etiquetados adecuadamente.
+- 🔗 Verifica que todos los enlaces de audio funcionen correctamente.
+
+> Con esta guía, podrás crear un mapa sonoro atractivo y educativo usando MapHub de manera sencilla.
+
+</details>
+
 ---
 
