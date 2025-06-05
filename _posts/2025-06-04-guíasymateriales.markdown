@@ -42,7 +42,7 @@ categories: [resources, HHDD]
   }
 </style>
 
-## 🧭 Manual básico interactivo
+## 🧭 Manuales básicos
 
 <details markdown="1">
 <summary><i class="fa-solid fa-folder-open"></i> Guía completa de uso de Omeka.net</summary>
