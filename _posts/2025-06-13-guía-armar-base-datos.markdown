@@ -27,7 +27,7 @@ Antes de comenzar, responde:
 
 Usa campos del estándar [Dublin Core Metadata Element Set](https://www.dublincore.org/specifications/dublin-core/dces/) como encabezados de tus columnas.
 
-### 📊 Tabla de campos recomendados (Dublin Core simplificado)
+<h3>📊 Tabla de campos recomendados (Dublin Core simplificado)</h3>
 
 <table>
   <thead>
@@ -45,7 +45,17 @@ Usa campos del estándar [Dublin Core Metadata Element Set](https://www.dublinco
     <tr><td><code>publisher</code></td><td>Editorial o entidad responsable</td></tr>
     <tr><td><code>contributor</code></td><td>Otras personas que colaboraron</td></tr>
     <tr><td><code>date</code></td><td>Fecha de publicación o creación</td></tr>
-    <tr><td><code>type</code></td><td>Tipo de recurso (libro, artículo, audio
+    <tr><td><code>type</code></td><td>Tipo de recurso (libro, artículo, audio, etc.)</td></tr>
+    <tr><td><code>format</code></td><td>Formato del archivo o medio</td></tr>
+    <tr><td><code>identifier</code></td><td>ID externo (ISBN, DOI, URL, etc.)</td></tr>
+    <tr><td><code>source</code></td><td>Fuente de origen</td></tr>
+    <tr><td><code>language</code></td><td>Idioma</td></tr>
+    <tr><td><code>relation</code></td><td>Relación con otras obras</td></tr>
+    <tr><td><code>coverage</code></td><td>Cobertura geográfica o temporal</td></tr>
+    <tr><td><code>rights</code></td><td>Derechos de uso o licencia</td></tr>
+  </tbody>
+</table>
+
 
 
 📌 El campo `id` debe ser único para cada línea de datos (`bk001`, `bk002`, etc.).
