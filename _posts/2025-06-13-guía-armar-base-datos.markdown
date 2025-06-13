@@ -114,7 +114,7 @@ Acompaña tu archivo `.csv` con un `README.md` que contenga:
 
 ## 🧾 Plantilla `.csv` de ejemplo
 
-👉 [Descargar plantilla CSV de ejemplo](assets/data/plantilla_base_datos.csv)
+👉 [Descargar plantilla CSV de ejemplo](jornadas2025/assets/data/plantilla_base_datos.csv)
 
 ```csv
 id,title,creator,subject,description,publisher,contributor,date,type,format,identifier,source,language,relation,coverage,rights
