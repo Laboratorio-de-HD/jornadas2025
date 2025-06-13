@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Guía para armar base de datos
-date:   2025-06-04
+date:   2025-06-13
 categories: [resources, HHDD]
 ---
 
