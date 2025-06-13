@@ -4,7 +4,7 @@ layout: post
 date: 2025-06-13
 categories: [recursos, scraping, datos]
 tags: [python, scraping, google-colab, datos, tutorial]
-author: jornadas2025
+author: Nat R.
 icon: 📄
 description: Aprende paso a paso a hacer scraping con Python desde Google Colab sin instalar nada en tu computadora.
 ---
@@ -105,5 +105,3 @@ files.download('libros.csv')
 - Puedes practicar con más páginas del mismo sitio.
 - Intentar extraer más campos (como calificación o enlaces de imagen).
 - Usar bucles para recorrer varias páginas.
-
-¿Quieres una guía extendida con eso? ¡Pídemela!
