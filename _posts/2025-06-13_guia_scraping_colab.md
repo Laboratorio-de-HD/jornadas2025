@@ -105,3 +105,4 @@ files.download('libros.csv')
 - Puedes practicar con más páginas del mismo sitio.
 - Intentar extraer más campos (como calificación o enlaces de imagen).
 - Usar bucles para recorrer varias páginas.
+
