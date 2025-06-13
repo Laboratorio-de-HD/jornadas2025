@@ -25,26 +25,29 @@ Antes de comenzar, responde:
 
 ## 🧱 2. Diseña la estructura usando Dublin Core
 
-Usa campos del estándar [Dublin Core Metadata Element Set](https://www.dublincore.org/specifications/dublin-core/dces/) como encabezados de tus columnas. Aquí una tabla simplificada:
+Usa campos del estándar [Dublin Core Metadata Element Set](https://www.dublincore.org/specifications/dublin-core/dces/) como encabezados de tus columnas.
 
-| Campo `csv`       | Descripción                            |
-|------------------|----------------------------------------|
-| `id`             | Identificador único por fila (obligatorio) |
-| `title`          | Título del recurso                     |
-| `creator`        | Autor/a o creador/a                    |
-| `subject`        | Temas o palabras clave                 |
-| `description`    | Breve resumen del contenido            |
-| `publisher`      | Editorial o entidad responsable        |
-| `contributor`    | Otras personas que colaboraron         |
-| `date`           | Fecha de publicación o creación        |
-| `type`           | Tipo de recurso (libro, artículo, audio) |
-| `format`         | Formato del archivo o medio            |
-| `identifier`     | ID externo (ISBN, DOI, URL, etc.)      |
-| `source`         | Fuente de origen                       |
-| `language`       | Idioma                                 |
-| `relation`       | Relación con otras obras               |
-| `coverage`       | Cobertura geográfica o temporal        |
-| `rights`         | Derechos de uso o licencia             |
+### 📊 Tabla de campos recomendados (Dublin Core simplificado)
+
+| Campo `csv`    | Descripción                                           |
+|----------------|--------------------------------------------------------|
+| `id`           | Identificador único por fila (obligatorio)            |
+| `title`        | Título del recurso                                     |
+| `creator`      | Autor/a o creador/a                                    |
+| `subject`      | Temas o palabras clave                                 |
+| `description`  | Breve resumen del contenido                            |
+| `publisher`    | Editorial o entidad responsable                        |
+| `contributor`  | Otras personas que colaboraron                         |
+| `date`         | Fecha de publicación o creación                        |
+| `type`         | Tipo de recurso (libro, artículo, audio, etc.)         |
+| `format`       | Formato del archivo o medio                            |
+| `identifier`   | ID externo (ISBN, DOI, URL, etc.)                      |
+| `source`       | Fuente de origen                                       |
+| `language`     | Idioma                                                 |
+| `relation`     | Relación con otras obras                               |
+| `coverage`     | Cobertura geográfica o temporal                        |
+| `rights`       | Derechos de uso o licencia                             |
+
 
 📌 El campo `id` debe ser único para cada línea de datos (`bk001`, `bk002`, etc.).
 
