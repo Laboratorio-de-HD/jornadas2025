@@ -114,14 +114,7 @@ Acompaña tu archivo `.csv` con un `README.md` que contenga:
 
 ## 🧾 Plantilla `.csv` de ejemplo
 
-👉 [Descargar plantilla CSV de ejemplo](jornadas2025/assets/data/plantilla_base_datos.csv)
-
-```csv
-id,title,creator,subject,description,publisher,contributor,date,type,format,identifier,source,language,relation,coverage,rights
-bk001,Kindred,Octavia E. Butler,Afrofuturismo; Ciencia Ficción,Una novela sobre viajes en el tiempo,Beacon Press,,1979,Libro,Impreso,978-0807083697,Open Library,en,,EEUU, Copyright
-bk002,La mujer habitada,Gioconda Belli,Realismo mágico; Feminismo,Novela sobre la resistencia y la memoria colectiva,DASA,,1988,Libro,Impreso,978-958-05-0372-6,Catálogo UANL,es,,Nicaragua, Copyright
-bk003,Los recuerdos del porvenir,Elena Garro,Posrevolución; Memoria; Mujeres,Una exploración de la memoria y lo fantástico,Joaquín Mortiz,,1963,Libro,Impreso,978-968-27-0123-4,Fondo de Cultura Económica,es,,México, Copyright
-```
+👉 [Descargar plantilla CSV de ejemplo](/jornadas2025/assets/data/plantilla_base_datos.csv)
 
 ---
 
