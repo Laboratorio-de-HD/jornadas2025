@@ -29,24 +29,23 @@ Usa campos del estándar [Dublin Core Metadata Element Set](https://www.dublinco
 
 ### 📊 Tabla de campos recomendados (Dublin Core simplificado)
 
-| Campo `csv`    | Descripción                                           |
-|----------------|--------------------------------------------------------|
-| `id`           | Identificador único por fila (obligatorio)            |
-| `title`        | Título del recurso                                     |
-| `creator`      | Autor/a o creador/a                                    |
-| `subject`      | Temas o palabras clave                                 |
-| `description`  | Breve resumen del contenido                            |
-| `publisher`    | Editorial o entidad responsable                        |
-| `contributor`  | Otras personas que colaboraron                         |
-| `date`         | Fecha de publicación o creación                        |
-| `type`         | Tipo de recurso (libro, artículo, audio, etc.)         |
-| `format`       | Formato del archivo o medio                            |
-| `identifier`   | ID externo (ISBN, DOI, URL, etc.)                      |
-| `source`       | Fuente de origen                                       |
-| `language`     | Idioma                                                 |
-| `relation`     | Relación con otras obras                               |
-| `coverage`     | Cobertura geográfica o temporal                        |
-| `rights`       | Derechos de uso o licencia                             |
+<table>
+  <thead>
+    <tr>
+      <th style="padding: 8px 20px; text-align: left;">Campo <code>csv</code></th>
+      <th style="padding: 8px 20px; text-align: left;">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><code>id</code></td><td>Identificador único por fila (obligatorio)</td></tr>
+    <tr><td><code>title</code></td><td>Título del recurso</td></tr>
+    <tr><td><code>creator</code></td><td>Autor/a o creador/a</td></tr>
+    <tr><td><code>subject</code></td><td>Temas o palabras clave</td></tr>
+    <tr><td><code>description</code></td><td>Breve resumen del contenido</td></tr>
+    <tr><td><code>publisher</code></td><td>Editorial o entidad responsable</td></tr>
+    <tr><td><code>contributor</code></td><td>Otras personas que colaboraron</td></tr>
+    <tr><td><code>date</code></td><td>Fecha de publicación o creación</td></tr>
+    <tr><td><code>type</code></td><td>Tipo de recurso (libro, artículo, audio
 
 
 📌 El campo `id` debe ser único para cada línea de datos (`bk001`, `bk002`, etc.).
@@ -126,6 +125,8 @@ Acompaña tu archivo `.csv` con un `README.md` que contenga:
 - Usa OpenRefine para depurar y estandarizar los datos.
 - Mantén consistencia terminológica y de formato.
 - Si planeas escalar, considera una base de datos como SQLite o Airtable.
+
+---
 
 ## 🖼️ ¿Cómo agregar audios, imágenes o videos a tu base de datos?
 
