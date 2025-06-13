@@ -126,5 +126,80 @@ Acompaña tu archivo `.csv` con un `README.md` que contenga:
 - Usa OpenRefine para depurar y estandarizar los datos.
 - Mantén consistencia terminológica y de formato.
 - Si planeas escalar, considera una base de datos como SQLite o Airtable.
+
+## 🖼️ ¿Cómo agregar audios, imágenes o videos a tu base de datos?
+
+Si quieres enriquecer tu base de datos con archivos multimedia —como imágenes, audios o videos—, puedes hacerlo de varias maneras según el nivel técnico y los objetivos de tu proyecto.
+
+### ✅ Opción 1: Vincular archivos multimedia desde tu archivo `.csv`
+
+Puedes agregar columnas adicionales con enlaces a los recursos multimedia:
+
+| id    | title     | image_url              | audio_url            | video_url            |
+|-------|-----------|------------------------|----------------------|----------------------|
+| bk001 | Kindred   | assets/images/img1.jpg | assets/audio/01.mp3  | assets/video/clip1.mp4 |
+
+Asegúrate de que los archivos estén disponibles públicamente en tu repositorio, por ejemplo:
+
+```
+/assets/images/
+assets/audio/
+assets/video/
+```
+
+También puedes usar URLs externas (como YouTube, SoundCloud, etc.).
+
+#### 🔍 Recomendaciones
+- Añade campos como `image_caption`, `audio_transcript`, `video_language`, etc., si deseas más control o accesibilidad.
+- Usa nombres de archivo coherentes con los IDs (`img_bk001.jpg`, `audio_bk001.mp3`, etc.).
+
+---
+
+### ✅ Opción 2: Usar plataformas como Omeka o CollectionBuilder
+
+Estas plataformas permiten asociar archivos multimedia a cada ítem descrito con metadatos como Dublin Core.
+
+- **Omeka.net**: Plataforma de exhibición digital para humanidades y archivos. Permite importar metadatos y subir archivos.
+- **CollectionBuilder**: Funciona con GitHub Pages y Jekyll. Lee un `.csv`, carga medios desde `/assets/` y genera un sitio navegable.
+
+---
+
+### ✅ Opción 3: Integrar medios en visualizaciones interactivas (Jupyter/Colab o HTML)
+
+Si estás trabajando en Jupyter Notebooks o Google Colab, puedes insertar los medios directamente desde los datos:
+
+```python
+from IPython.display import Image, Audio, HTML
+Image(filename='assets/images/img1.jpg')
+Audio(filename='assets/audio/01.mp3', autoplay=True)
+```
+
+También puedes usar HTML en sitios estáticos para incrustar los recursos en páginas personalizadas.
+
+---
+
+### 📁 Estructura de carpetas recomendada
+
+```
+/assets/
+├── data/
+│   └── mi_base.csv
+├── images/
+│   └── img1.jpg
+├── audio/
+│   └── 01.mp3
+└── video/
+    └── clip1.mp4
+```
+
+En el `.csv`:
+```csv
+id,title,image,audio,video
+bk001,Kindred,assets/images/img1.jpg,assets/audio/01.mp3,assets/video/clip1.mp4
+```
+
+Esto facilitará cargar los medios desde tu base de datos y mantener todo organizado y visible desde GitHub Pages u otras plataformas.
+
+
 ---
 
