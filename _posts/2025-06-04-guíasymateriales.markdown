@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  Guías: Omeka, para repositorios; Dublin Core, para metodología metadatos; MapHub, mapas y cartografía digital
+title:  "Guías: Omeka, para repositorios; Dublin Core, para metodología metadatos; MapHub, mapas y cartografía digital"
 date:   2025-06-17
+description: "Recopilación de guías paso a paso para herramientas digitales en humanidades"
 categories: [resources, HD]
 ---
 
