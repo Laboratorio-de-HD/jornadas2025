@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Guías y materiales HD
+title:  Guías: Omeka (repositorio), Dublin Core (metodología metadatos), MapHub (mapas y cartografía digital)
 date:   2025-06-04
-categories: [resources, HHDD]
+categories: [resources, HD]
 ---
 
 <style>
