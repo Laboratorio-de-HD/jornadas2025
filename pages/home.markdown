@@ -15,13 +15,15 @@ entorno académico en constante evolución.
 
 ### Fechas
 
-Con actividades en tres diferentes campus, las jornadas se llevarán a cabo en las siguientes fechas:
+Con actividades en diferentes campus, las jornadas se llevarán a cabo en las siguientes fechas:
 
 - <i class="fas fa-calendar-alt"></i>  **Campus Puebla**: 27 y 28 de agosto de 2025
 - <i class="fas fa-calendar-alt"></i>  **Virtual, Región Noroeste**: 8 y 9 de septiembre 2025   
 - <i class="fas fa-calendar-alt"></i>  **Campus Querétaro**: 23 y 24 de septiembre de 2025
-- <i class="fas fa-calendar-alt"></i>  **Campus CDMX**: 25 y 26 de septiembre 2025   
+- <i class="fas fa-calendar-alt"></i>  **Campus Santa Fe**: 25 y 26 de septiembre 2025   
 - <i class="fas fa-calendar-alt"></i>  **Campus Guadalajara**: 30 de septiembre y 1 de octubre de 2025
+- <i class="fas fa-calendar-alt"></i>  **Campus Monterrey**: 15, 16 y 17 de octubre de 2025 (7° Encuentro de HD)
+- <i class="fas fa-calendar-alt"></i>  *Si estás en un Campus que aún no aparece en el listado, te invitamos a registrarte en el más cercano o de tu preferencia.
 
 
 ### Contacto
